@@ -1,0 +1,30 @@
+body{
+    background: linear-gradient(to right,#1c0e37,#3e107f);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.clock{
+    border:none;
+    border-radius: 15px;
+    background-color: #1c0e37;
+    color: aqua;
+    width: 30%;
+    height: auto;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    padding: 60px 100px;
+    box-shadow: 0px 0px 15px 5px rgba(255, 0, 255, 1), 0px 0px 30px 15px rgba(255, 0, 255, 0.7), 0px 0px 40px 15px rgba(255, 0, 255, 0.4);
+    font-size: 4rem;
+    font-family:fantasy;
+}
+#ampm{
+    font-size: 1.7rem;
+}
+.colon{
+    color: white;
+}
